@@ -6,6 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Div como tabla</title>
     <meta charset="utf-8" />
+    <style>
+
+       #contenedor {
+        display: table;
+       }
+
+      .contenidos {
+        display: table-row;
+      }
+
+      .secundario
+      , .principal
+      , .lateral {
+        display: table-cell;
+      }
+
+    </style>
   </head>
   <body>
     <div id="contenedor">
@@ -18,12 +35,12 @@
         <div class="secundario">Curabitur rutrum...</div>
         <div class="principal">Lorem ipsum dolor sit amet...</div>
         <div class="lateral">Nam erat massa...</div>
-      </div>   
+      </div>
       <div class="contenidos">
         <div class="secundario">Curabitur rutrum...</div>
         <div class="principal">Lorem ipsum dolor sit amet...</div>
         <div class="lateral">Nam erat massa...</div>
-      </div>          
+      </div>
     </div>
   </body>
 </html>
